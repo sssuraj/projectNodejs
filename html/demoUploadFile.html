@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../script/fileHelper.js"></script>
+    <title>Demo HTML</title>
+</head>
+<body>
+    <h1>
+        Header Text
+    </h1>
+    <p>
+        Paragraph Text
+    </p>
+    <label>Enter a filename : </label>
+    <input type="text"
+            id="name"
+            name="name"
+            required
+            maxlength="8"
+            size="100" />
+    <button onclick="functionToExecute('Append')" type="button">Append File</button>
+    <button onclick="functionToExecute('Open')" type="button">Open File</button>
+    <button onclick="functionToExecute('Write')" type="button">Write File</button>
+    <button onclick="functionToExecute('Unlink')" type="button">Unlink File</button>
+    <button onclick="functionToExecute('Rename')" type="button">Rename File</button>        
+</body>
+</html>
